@@ -1,0 +1,29 @@
+SController = {
+    ACTIONS = {
+	showInfoPanel:;
+	restartLevel:;
+	appDidInit:;
+	undo:;
+    };
+    OUTLETS = {
+	sokoView;
+	infoPanel;
+	waitPanel;
+	sokoWindow;
+    };
+    SUPERCLASS = Object;
+};
+FirstResponder = {
+    ACTIONS = {
+    };
+    SUPERCLASS = Object;
+};
+SokoView = {
+    ACTIONS = {
+	windowWillResize:;
+    };
+    OUTLETS = {
+	sokowindow;
+    };
+    SUPERCLASS = View;
+};

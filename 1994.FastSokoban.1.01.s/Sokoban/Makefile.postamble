@@ -1,0 +1,5 @@
+version.h	:	InfoView.h InfoView.m SController.h SController.m SokoView.h SokoView.m 
+		incrementVersion.sh  
+		
+
+InfoView.o	:	InfoView.h InfoView.m version.h

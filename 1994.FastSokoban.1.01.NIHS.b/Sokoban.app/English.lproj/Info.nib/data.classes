@@ -1,0 +1,29 @@
+SController = {
+    ACTIONS = {
+	showInfoPanel:;
+    };
+    OUTLETS = {
+	infoPanel;
+    };
+    SUPERCLASS = Object;
+};
+FirstResponder = {
+    ACTIONS = {
+    };
+    SUPERCLASS = Object;
+};
+InfoView = {
+    ACTIONS = {
+	loadFromFile:;
+	windowDidMiniaturize:;
+	windowDidBecomeKey:;
+	windowDidResignKey:;
+    };
+    OUTLETS = {
+	background;
+	date;
+	version;
+	ball;
+    };
+    SUPERCLASS = View;
+};

@@ -1,0 +1,27 @@
+INSTALLDIR = "$(HOME)/Apps";
+APPICON = Bulldozer.tiff;
+GENERATEMAIN = YES;
+DOCICONFILES = ();
+FILESTABLE = {
+    OTHER_LIBS = (Media_s, NeXT_s);
+    CLASSES = (InfoView.m, SController.m, SokoView.m);
+    OTHER_RESOURCES = (Levels, README);
+    OTHER_SOURCES = (incrementVersion.sh, Makefile, Makefile.postamble);
+    H_FILES = (InfoView.h, SController.h, SokoView.h, version.h);
+    INTERFACES = (Info.nib, Sokoban.nib);
+    IMAGES = (Bulldozer.tiff, Jolly.tiff);
+    OTHER_LINKED = ();
+    M_FILES = (Sokoban_main.m);
+};
+APPCLASS = Application;
+MAINNIB = Sokoban;
+DOCEXTENSIONS = ();
+PROJECTTYPE = Application;
+PROJECTVERSION = 1.1;
+LOCALIZABLE_FILES = {
+    Sokoban.nib;
+    Info.nib;
+};
+PROJECTNAME = Sokoban;
+SYSTEMEXTENSIONS = ();
+LANGUAGE = English;
